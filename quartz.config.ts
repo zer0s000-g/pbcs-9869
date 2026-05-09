@@ -10,7 +10,9 @@ const config: QuartzConfig = {
   configuration: {
     pageTitle: "PBCS Doc 9869 Knowledge Base",
     pageTitleSuffix: "",
-    enableSPA: true,
+    // Disable Quartz SPA navigation for this local KB so every section click
+    // loads fresh HTML and cannot keep an old cached "Quartz 4" sidebar shell.
+    enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
