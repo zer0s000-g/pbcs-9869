@@ -11,14 +11,14 @@ const config: QuartzConfig = {
     pageTitle: "PBCS Doc 9869 Knowledge Base",
     pageTitleSuffix: "",
     // Disable Quartz SPA navigation for this local KB so every section click
-    // loads fresh HTML and cannot keep an old cached "Quartz 4" sidebar shell.
+    // loads fresh HTML and cannot keep an old cached site-title sidebar shell.
     enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "zer0s000-g.github.io/pbcs-9869",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

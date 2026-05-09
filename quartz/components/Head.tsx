@@ -84,7 +84,7 @@ export default (() => {
 
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
-        <meta name="generator" content="Quartz" />
+        <meta name="generator" content="PBCS Doc 9869 Knowledge Base" />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
