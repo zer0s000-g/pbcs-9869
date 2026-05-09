@@ -2,13 +2,13 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz 4 Configuration
+ * PBCS Doc 9869 Knowledge Base site configuration
  *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * See https://quartz.jzhao.xyz/configuration for Quartz configuration details.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "PBCS Doc 9869 Knowledge Base",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

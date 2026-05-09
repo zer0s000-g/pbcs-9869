@@ -1,17 +1,20 @@
-# Quartz v4
+# PBCS Doc 9869 Knowledge Base
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Local Quartz publication wrapper for the PBCS Doc 9869 Obsidian knowledge base.
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+This repository is configured so the visible site branding matches the knowledge base, not the underlying Quartz framework.
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Local preview:
+`http://localhost:8080`
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+Build locally:
 
-## Sponsors
+```bash
+npx quartz build
+```
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Serve locally:
+
+```bash
+npx quartz build --serve
+```
