@@ -3,7 +3,7 @@ title: Home
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "home"]
+tags: ["home", "pbcs"]
 ---
 
 # PBCS Doc 9869 Knowledge Base
@@ -111,4 +111,20 @@ Pick your path:
 ## 🌏 Regional mapping
 
 - [[APAC PBCS Regulatory Mapping]] — Asia/Pacific requirements
+- [[NAT PBCS Regulatory Mapping]] — North Atlantic requirements
 - More regions coming soon
+
+---
+
+## 📖 Case studies
+
+- [[Case Study - Operator PBCS Approval]] — from zero to approval
+- [[Case Study - ANSP Monitoring Programme]] — building monitoring from scratch
+- [[Case Study - State First PBCS Prescription]] — prescribing PBCS for the first time
+
+---
+
+## 🎓 Teaching & training
+
+- [[Training Companion]] — workshop agendas, exercises, assessment questions
+- [[Learning Tracks]] — role-specific learning plans

@@ -3,7 +3,7 @@ title: Is Your Aircraft PBCS-Capable
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "decision-tree", "synthesis"]
+tags: ["pbcs", "synthesis"]
 ---
 
 # Is Your Aircraft PBCS-Capable?

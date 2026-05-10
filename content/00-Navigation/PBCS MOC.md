@@ -3,7 +3,7 @@ title: PBCS MOC
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "moc", "navigation"]
+tags: ["navigation", "pbcs"]
 ---
 
 # PBCS MOC — Map of Content
@@ -58,7 +58,23 @@ tags: ["pbcs", "moc", "navigation"]
 ## 🌏 Regulatory mapping
 
 - [[APAC PBCS Regulatory Mapping]] — Asia/Pacific requirements
-- More regions: NAT, AFI, CAR/SAM, MID, EUR — coming soon
+- [[NAT PBCS Regulatory Mapping]] — North Atlantic requirements
+- More regions: AFI, CAR/SAM, MID, EUR — coming soon
+
+---
+
+## 📖 Case studies
+
+- [[Case Study - Operator PBCS Approval]] — from zero to PBCS approval
+- [[Case Study - ANSP Monitoring Programme]] — building monitoring from nothing
+- [[Case Study - State First PBCS Prescription]] — prescribing PBCS for the first time
+
+---
+
+## 🎓 Training & teaching
+
+- [[Training Companion]] — 30/60/90 min workshop agendas, exercises, assessments
+- [[Acronyms and Terms]] — full glossary
 
 ---
 

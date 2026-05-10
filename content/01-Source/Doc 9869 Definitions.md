@@ -4,7 +4,7 @@ doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manu
 status: draft
 verification_status: source-linked-cleaned
 modified: 2026-05-09
-tags: ["pbcs", "definitions", "glossary"]
+tags: ["pbcs", "source"]
 ---
 
 # Doc 9869 Definitions

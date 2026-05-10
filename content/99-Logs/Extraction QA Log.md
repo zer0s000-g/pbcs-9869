@@ -3,7 +3,7 @@ title: Extraction QA Log
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "qa", "log"]
+tags: ["log", "pbcs"]
 ---
 
 # Extraction QA Log

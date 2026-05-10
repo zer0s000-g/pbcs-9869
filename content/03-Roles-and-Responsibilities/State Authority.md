@@ -3,7 +3,7 @@ title: State Authority
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "role", "responsibility"]
+tags: ["pbcs", "role"]
 ---
 
 # State Authority

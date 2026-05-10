@@ -3,7 +3,7 @@ title: PBCS Compliance Worked Example
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "synthesis", "example", "compliance"]
+tags: ["pbcs", "synthesis"]
 ---
 
 # PBCS Compliance Worked Example

@@ -4,7 +4,7 @@ doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manu
 status: draft
 verification_status: source-hardened-direct-pdf-check
 modified: 2026-05-06
-tags: ["pbcs", "tables", "figures", "source"]
+tags: ["pbcs", "source", "source-hardened"]
 ---
 
 # Doc 9869 Tables and Figures

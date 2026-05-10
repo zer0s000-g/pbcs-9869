@@ -3,7 +3,7 @@ title: Contributor Guide
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "governance", "meta"]
+tags: ["guide", "navigation", "pbcs"]
 ---
 
 # Contributor Guide
@@ -72,7 +72,7 @@ title: Page Title
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "relevant-tag"]
+tags: ["guide", "navigation", "pbcs"]
 ---
 ```
 

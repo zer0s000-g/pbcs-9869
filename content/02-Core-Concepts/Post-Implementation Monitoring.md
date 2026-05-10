@@ -4,7 +4,7 @@ doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manu
 status: draft
 verification_status: source-hardened-direct-pdf-check
 modified: 2026-05-06
-tags: ["pbcs", "concept", "monitoring", "source-hardened"]
+tags: ["concept", "pbcs", "source-hardened"]
 ---
 
 # Post-Implementation Monitoring

@@ -3,7 +3,7 @@ title: ICAO Interoperability Map
 doc_source: ICAO Doc 9869, Performance-based Communication and Surveillance Manual, Second Edition, 2017
 status: draft
 verification_status: source-linked
-tags: ["pbcs", "synthesis", "icao", "interoperability"]
+tags: ["pbcs", "synthesis"]
 ---
 
 # ICAO Interoperability Map
