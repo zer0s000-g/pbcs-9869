@@ -15,36 +15,22 @@ tags: ["pbcs", "synthesis", "icao", "interoperability"]
 
 ## The ICAO PBCS document ecosystem
 
-```
-                    ┌─────────────────┐
-                    │   Doc 9869      │
-                    │  PBCS Manual    │
-                    │  (framework)    │
-                    └────────┬────────┘
-                             │
-        ┌────────────────────┼────────────────────┐
-        │                    │                    │
-        ▼                    ▼                    ▼
-┌───────────────┐   ┌───────────────┐   ┌───────────────┐
-│ Annex 10      │   │ Doc 4444      │   │ Doc 7030      │
-│ Vol III       │   │ PANS-ATM      │   │ Regional      │
-│ (technical)   │   │ (procedural)  │   │ SUPPs         │
-└───────┬───────┘   └───────┬───────┘   └───────┬───────┘
-        │                   │                   │
-        └───────────────────┼───────────────────┘
-                            │
-                    ┌───────┴───────┐
-                    │     GOLD      │
-                    │  (operational │
-                    │   guidance)   │
-                    └───────────────┘
+```mermaid
+graph TD
+    DOC["Doc 9869<br>PBCS Manual<br>(framework)"]
+    A10["Annex 10 Vol III<br>(technical standards)"]
+    D4444["Doc 4444 PANS-ATM<br>(operational procedures)"]
+    D7030["Doc 7030<br>Regional SUPPs"]
+    GOLD["GOLD<br>(operational guidance)"]
+    D9613["Doc 9613 PBN Manual<br>(navigation — complementary)"]
 
-       ┌───────────────┐
-       │ Doc 9613      │
-       │ PBN Manual    │
-       │ (navigation)  │
-       └───────────────┘
-       (complementary, not subordinate)
+    DOC --> A10
+    DOC --> D4444
+    DOC --> D7030
+    A10 --> GOLD
+    D4444 --> GOLD
+    D7030 --> GOLD
+    D9613 -.->|complementary| DOC
 ```
 
 ---

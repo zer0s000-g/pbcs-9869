@@ -90,6 +90,7 @@ Pick your path:
 - [[Day 1 PBCS Action Guides]] — what to do on day one
 - [[Verification Standards]] — trust but verify
 - [[Institution Adaptation Guide]] — fork and customize
+- [[Contributor Guide]] — how to contribute
 - [[ICAO Interoperability Map]] — the broader ICAO ecosystem
 - [[Changelog]] — what changed and when
 

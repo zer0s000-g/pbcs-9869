@@ -48,6 +48,7 @@ tags: ["pbcs", "moc", "navigation"]
 - [[Verification Standards]] — what each verification badge means
 - [[PBCS Institutional Maturity Model]] — assess your PBCS journey
 - [[Day 1 PBCS Action Guides]] — what to do on day one (operator, ANSP, State)
+- [[Contributor Guide]] — how to contribute to this KB
 - [[Changelog]] — version history and changes
 - [[Institution Adaptation Guide]] — fork and customize for your organization
 - [[ICAO Interoperability Map]] — how Doc 9869 connects to Annex 10, PANS-ATM, and more

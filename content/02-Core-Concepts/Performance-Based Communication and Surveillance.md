@@ -54,47 +54,24 @@ If you can prove it — regardless of which equipment you use — you're complia
 
 PBCS isn't a one-time check. It's a continuous loop:
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                        PBCS LIFECYCLE                                   │
-│                                                                         │
-│  1. DEVELOP             2. APPLY              3. PROVE                  │
-│  ┌──────────┐         ┌──────────┐          ┌──────────┐              │
-│  │ What does │ ──────→ │ Prescribe│ ───────→ │ Show you  │              │
-│  │ the ATM   │         │ RCP/RSP  │          │ can meet  │              │
-│  │ operation │         │ in AIP   │          │ the spec  │              │
-│  │ need?     │         │ or SUPP  │          │           │              │
-│  └──────────┘         └──────────┘          └─────┬─────┘              │
-│       ↑                                           │                    │
-│       │                                           ↓                    │
-│       │                                    4. MONITOR                  │
-│       │                                    ┌──────────┐               │
-│       │                                    │ Collect  │               │
-│       │                                    │ ACP/ASP  │               │
-│       │                                    │ data,    │               │
-│       │                                    │ analyze, │               │
-│       │                                    │ report   │               │
-│       │                                    └─────┬─────┘               │
-│       │                                          │                     │
-│       │                                   ┌──────┴──────┐             │
-│       │                                   │  Meets RCP/  │             │
-│       │                                   │  RSP spec?   │             │
-│       │                                   └──────┬──────┘             │
-│       │                                ┌─────────┴─────────┐         │
-│       │                            YES │                    │ NO      │
-│       │                                ↓                    ↓         │
-│       │                          Continue          5. CORRECT          │
-│       │                        monitoring       ┌──────────┐         │
-│       │                                         │Investi-  │         │
-│       │                                         │gate root │         │
-│       │                                         │cause,    │         │
-│       │                                         │implement │         │
-│       │                                         │fix       │         │
-│       │                                         └────┬─────┘         │
-│       │                                              │               │
-│       └──────────────────────────────────────────────┘               │
-│                   Re-assess and re-prove                              │
-└─────────────────────────────────────────────────────────────────────────┘
+```mermaid
+graph TD
+    DEV["1. DEVELOP<br>What does the ATM<br>operation need?"]
+    APP["2. APPLY<br>Prescribe RCP/RSP<br>in AIP or SUPP"]
+    PRV["3. PROVE<br>Show you can meet<br>the specification"]
+    MON["4. MONITOR<br>Collect ACP/ASP data,<br>analyze, report"]
+    DEC{"Meets RCP/RSP<br>specification?"}
+    COR["5. CORRECT<br>Investigate root cause,<br>implement fix"]
+    CON["Continue<br>monitoring"]
+
+    DEV --> APP
+    APP --> PRV
+    PRV --> MON
+    MON --> DEC
+    DEC -->|YES| CON
+    DEC -->|NO| COR
+    COR --> DEV
+    CON --> MON
 ```
 
 **Key questions at each stage:**
