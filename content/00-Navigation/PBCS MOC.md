@@ -46,9 +46,18 @@ tags: ["pbcs", "moc", "navigation"]
 ## 🏛️ Governance
 
 - [[Verification Standards]] — what each verification badge means
+- [[PBCS Institutional Maturity Model]] — assess your PBCS journey
+- [[Day 1 PBCS Action Guides]] — what to do on day one (operator, ANSP, State)
 - [[Changelog]] — version history and changes
 - [[Institution Adaptation Guide]] — fork and customize for your organization
 - [[ICAO Interoperability Map]] — how Doc 9869 connects to Annex 10, PANS-ATM, and more
+
+---
+
+## 🌏 Regulatory mapping
+
+- [[APAC PBCS Regulatory Mapping]] — Asia/Pacific requirements
+- More regions: NAT, AFI, CAR/SAM, MID, EUR — coming soon
 
 ---
 

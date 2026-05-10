@@ -84,9 +84,14 @@ Pick your path:
 
 ---
 
-## 🤝 For institutions
+## 🏛️ For institutions
 
-This KB is designed to be forked, adapted, and layered with your own regulatory, operational, and contractual evidence. See [[Learning Tracks]] for role-specific guidance.
+- [[PBCS Institutional Maturity Model]] — assess your PBCS journey
+- [[Day 1 PBCS Action Guides]] — what to do on day one
+- [[Verification Standards]] — trust but verify
+- [[Institution Adaptation Guide]] — fork and customize
+- [[ICAO Interoperability Map]] — the broader ICAO ecosystem
+- [[Changelog]] — what changed and when
 
 ---
 
@@ -102,9 +107,7 @@ This KB is designed to be forked, adapted, and layered with your own regulatory,
 
 ---
 
-## 🏛️ For institutions
+## 🌏 Regional mapping
 
-- [[Verification Standards]] — trust but verify
-- [[Institution Adaptation Guide]] — fork and customize
-- [[ICAO Interoperability Map]] — the broader ICAO ecosystem
-- [[Changelog]] — what changed and when
+- [[APAC PBCS Regulatory Mapping]] — Asia/Pacific requirements
+- More regions coming soon
