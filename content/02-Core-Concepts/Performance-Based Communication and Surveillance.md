@@ -8,26 +8,79 @@ tags: ["pbcs", "concept"]
 
 # Performance-Based Communication and Surveillance
 
-## Short definition
-PBCS provides objective operational criteria for communication and surveillance capabilities used by ATM operations. It separates the operational performance requirement from any single technology so that different systems can be assessed against common criteria.
+> [!summary] TL;DR
+> PBCS replaces "what equipment do you have?" with "what performance can you deliver?" It gives ATM operations objective, measurable criteria for communication and surveillance — so any technology that meets the bar can be approved.
 
-## Operational meaning
-This concept should be interpreted inside the full PBCS lifecycle: specification development, application to an ATM operation, initial compliance, operational approval where applicable, and post-implementation monitoring.
+---
+
+## The problem PBCS solves
+
+Before PBCS, air-ground communication and surveillance approval was prescription-based:
+
+> *"Do you have VHF radio? CPDLC? ADS-C equipment installed?"*
+
+This approach had two problems:
+
+1. **Technology lock-in.** A new system that performed better couldn't easily be used because the regulation specified equipment, not outcomes.
+2. **No objective baseline.** Two operators with identical equipment could have vastly different operational performance (different training, procedures, service providers).
+
+PBCS flips this:
+
+> *"Can your communication transaction complete within 240 seconds, with 99.9% continuity and 99.99% availability?"*
+
+If you can prove it — regardless of which equipment you use — you're compliant.
+
+---
+
+## The two pillars
+
+| | RCP | RSP |
+|---|---|---|
+| **Domain** | Communication | Surveillance |
+| **Question it answers** | "Did my CPDLC message get through in time?" | "Did my position report arrive when needed?" |
+| **Key metric** | Communication Transaction Time (CTT) | Surveillance Data Delivery Time (SDDT) |
+| **Source** | Doc 9869 Appendix B | Doc 9869 Appendix C |
+
+> [!example] Real-world example
+> An oceanic FIR wants to reduce longitudinal separation from 10 minutes to 5 minutes using CPDLC and ADS-C. They prescribe:
+> - **RCP 240/D** for the CPDLC communication (transaction must complete within 240 seconds)
+> - **RSP 180/D** for the ADS-C surveillance (position data must be delivered within 180 seconds)
+>
+> Any operator who can show their aircraft + crew + service provider meets these numbers can fly the reduced separation. The State doesn't care if they use Inmarsat, Iridium, or a future satellite system — only that the numbers are met.
+
+---
+
+## The PBCS lifecycle
+
+PBCS isn't a one-time check. It's a continuous loop:
+
+```
+Develop spec → Apply to operation → Prove compliance → Monitor performance → Correct if degraded
+     ↑                                                                              |
+     └──────────────────────────────────────────────────────────────────────────────┘
+```
+
+Each stage maps to specific sections of Doc 9869:
+- **Develop:** Chapter 2, [[Developing RCP RSP Specifications]]
+- **Apply:** Chapter 3, [[Applying RCP RSP Specifications]]
+- **Prove:** Chapter 4.2-4.4, [[Operational Approval]]
+- **Monitor:** Chapter 4.5, Appendices D-E, [[Post-Implementation Monitoring]]
+- **Correct:** Appendices D-E, [[Corrective Action]]
+
+---
 
 ## Source basis
-- Doc 9869 Chapter 1 is the primary basis for this concept. It explains the PBCS framework and how RCP and RSP specifications are used to support ATM operations.
-- This note explains the operational meaning and routes readers to the source map for detailed verification.
-- For source navigation, see [[Source - ICAO Doc 9869]], [[Doc 9869 Section Map]], and [[Evidence and Traceability Map]].
 
-## Practical use
-- Use this note to route readers to the relevant source section and implementation responsibility.
-- For formal decisions, verify the cited source pages and the current State/regional procedures.
-- For company implementation, map the concept into evidence, ownership, and monitoring actions.
+- Doc 9869 Chapter 1 explains the PBCS framework
+- For source navigation: [[Source - ICAO Doc 9869]], [[Doc 9869 Section Map]]
+
+---
 
 ## Related notes
+
+- [[Beginner Path]] — start here if you're new
 - [[Required Communication Performance]]
 - [[Required Surveillance Performance]]
+- [[RCP vs RSP]]
 - [[PBCS Responsibility Matrix]]
 - [[PBCS Implementation Lifecycle]]
-- [[Source - ICAO Doc 9869]]
-- [[Evidence and Traceability Map]]

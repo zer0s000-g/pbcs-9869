@@ -8,28 +8,81 @@ tags: ["pbcs", "home"]
 
 # PBCS Doc 9869 Knowledge Base
 
-This vault is a source-linked company knowledge base for ICAO Doc 9869, Performance-based Communication and Surveillance (PBCS) Manual, Second Edition, 2017.
+A source-linked, open knowledge base for ICAO Doc 9869 — the Performance-based Communication and Surveillance Manual (Second Edition, 2017).
 
-## Start here
-- [[PBCS MOC]] — main map of content.
-- [[Beginner Path]] — first-reader explanation of PBCS, RCP, RSP, and responsibilities.
-- [[Implementation Path]] — practical path for implementing a PBCS operation.
-- [[Compliance Path]] — approvals, evidence, monitoring, and continued compliance.
-- [[Evidence and Traceability Map]] — claim-to-source routing into Doc 9869.
+> [!info] What this is
+> This is a structured learning and reference resource. Every concept is traced to its source section in Doc 9869, with page-level references to the original ICAO publication.
 
-## Core concepts
-- [[Performance-Based Communication and Surveillance]]
-- [[Required Communication Performance]]
-- [[Required Surveillance Performance]]
-- [[RCP vs RSP]]
-- [[Post-Implementation Monitoring]]
+---
 
-## High-use company pages
-- [[PBCS Responsibility Matrix]]
-- [[PBCS Evidence Ladder]]
-- [[PBCS Implementation Lifecycle]]
-- [[PBCS Implementation Risks]]
-- [[PBCS Compliance Matrix Template]]
+## 🧭 Which describes you?
 
-## Source posture
-This site summarizes, structures, and links knowledge extracted from the source document. It is not a replacement for the controlled ICAO publication. Use the source locations and traceability map when making formal compliance or operational decisions.
+Pick your path:
+
+| I want to... | Start here |
+|---|---|
+| **Understand PBCS for the first time** | [[Beginner Path]] — a guided walkthrough |
+| **Implement PBCS in my organization** | [[Implementation Path]] — step-by-step |
+| **Prove compliance and get approval** | [[Compliance Path]] — evidence and monitoring |
+| **Find a specific concept fast** | [[PBCS MOC]] — map of everything |
+| **Trace a claim to the source** | [[Evidence and Traceability Map]] |
+
+---
+
+## ⏱️ Time budgets
+
+- **15 minutes:** Read [[Beginner Path]] to understand what PBCS is
+- **30 minutes:** Add [[RCP vs RSP]] and [[PBCS Responsibility Matrix]]
+- **60 minutes:** Walk the full [[Implementation Path]] with checklists
+- **Deep dive:** Browse [[PBCS MOC]] and explore the graph view
+
+---
+
+## 📚 What's inside
+
+### Concepts
+
+- [[Performance-Based Communication and Surveillance]] — the framework
+- [[Required Communication Performance]] — RCP explained
+- [[Required Surveillance Performance]] — RSP explained
+- [[RCP vs RSP]] — side-by-side comparison
+- [[Post-Implementation Monitoring]] — keeping it running
+
+### Specifications
+
+- [[RCP 240 D]] — CPDLC communication
+- [[RCP 400 D]] — data-link communication
+- [[RCP 400 VRO]] — SATVOICE voice relay
+- [[RSP 180 D]] — data-link surveillance
+- [[RSP 400 D]] — surveillance specification
+- [[RSP 400 VRO]] — SATVOICE surveillance context
+
+### Tools for your work
+
+- [[PBCS Responsibility Matrix]] — who does what
+- [[PBCS Evidence Ladder]] — how to prove compliance
+- [[PBCS Implementation Lifecycle]] — end-to-end flow
+- [[PBCS Implementation Risks]] — what to watch for
+- [[PBCS Compliance Matrix Template]] — fill-in compliance tracker
+- [[Monitoring Report Template]] — monitoring data format
+
+---
+
+## 🔗 Source posture
+
+> [!warning] Important
+> This site summarizes, structures, and links knowledge extracted from Doc 9869. It is **not** a replacement for the controlled ICAO publication. For formal compliance or operational decisions, always verify against the current source document and your State/regional procedures.
+
+| Where to go | What it is |
+|---|---|
+| [[Source - ICAO Doc 9869]] | Document identity and extraction method |
+| [[Doc 9869 Section Map]] | Every chapter mapped to vault notes |
+| [[Doc 9869 Definitions]] | Key terms from the source |
+| [[Doc 9869 Tables and Figures]] | All tables with verification routes |
+| [[Referenced Publications]] | External standards (RTCA, EUROCAE) |
+
+---
+
+## 🤝 For institutions
+
+This KB is designed to be forked, adapted, and layered with your own regulatory, operational, and contractual evidence. See [[Learning Tracks]] for role-specific guidance.
