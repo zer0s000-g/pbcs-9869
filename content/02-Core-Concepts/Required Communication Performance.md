@@ -85,3 +85,12 @@ Each component gets an *allocation*. The sum of allocations must not exceed the 
 - [[RCP Allocation]]
 - [[RCP Compliance]]
 - [[RCP Monitoring]]
+---
+
+## 🧭 Where next?
+
+⬅ Back to: [[RCP vs RSP]]
+
+➡ Continue to: [[Required Surveillance Performance]]
+
+📋 Return to: [[Beginner Path]] | [[Beginner Path]] | [[PBCS MOC]]
