@@ -56,3 +56,13 @@ Ready to execute? Use these role-specific checklists:
 
 > [!warning] Mistake 4: No service provider contracts before approval
 > Your CSP/SSP must agree to provide performance and outage data. If this isn't in your contract, you can't run monitoring.
+
+---
+
+## 🧭 Where next?
+
+⬅ Previous: [[Beginner Path]] — build your mental model first
+
+➡ Next: [[Compliance Path]] — how approvals and evidence work
+
+Or jump to: [[Learning Tracks]] | [[PBCS MOC]]

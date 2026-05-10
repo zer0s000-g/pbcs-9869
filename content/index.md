@@ -64,6 +64,7 @@ Pick your path:
 - [[PBCS Implementation Lifecycle]] — end-to-end flow
 - [[PBCS Implementation Risks]] — what to watch for
 - [[PBCS Compliance Matrix Template]] — fill-in compliance tracker
+- [[PBCS Compliance Worked Example]] — see a completed compliance matrix
 - [[Monitoring Report Template]] — monitoring data format
 
 ---

@@ -62,3 +62,13 @@ Doc 9869 guidance must be combined with:
 - Operational monitoring data
 
 This KB provides the source routing — the actual compliance artifacts are yours to create and maintain.
+
+---
+
+## 🧭 Where next?
+
+⬅ Previous: [[Implementation Path]] — the full implementation sequence
+
+➡ Next: [[Learning Tracks]] — find your role-specific training plan
+
+Or jump to: [[PBCS MOC]] | [[Beginner Path]]

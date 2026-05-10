@@ -55,17 +55,68 @@ If you can prove it — regardless of which equipment you use — you're complia
 PBCS isn't a one-time check. It's a continuous loop:
 
 ```
-Develop spec → Apply to operation → Prove compliance → Monitor performance → Correct if degraded
-     ↑                                                                              |
-     └──────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                        PBCS LIFECYCLE                                   │
+│                                                                         │
+│  1. DEVELOP             2. APPLY              3. PROVE                  │
+│  ┌──────────┐         ┌──────────┐          ┌──────────┐              │
+│  │ What does │ ──────→ │ Prescribe│ ───────→ │ Show you  │              │
+│  │ the ATM   │         │ RCP/RSP  │          │ can meet  │              │
+│  │ operation │         │ in AIP   │          │ the spec  │              │
+│  │ need?     │         │ or SUPP  │          │           │              │
+│  └──────────┘         └──────────┘          └─────┬─────┘              │
+│       ↑                                           │                    │
+│       │                                           ↓                    │
+│       │                                    4. MONITOR                  │
+│       │                                    ┌──────────┐               │
+│       │                                    │ Collect  │               │
+│       │                                    │ ACP/ASP  │               │
+│       │                                    │ data,    │               │
+│       │                                    │ analyze, │               │
+│       │                                    │ report   │               │
+│       │                                    └─────┬─────┘               │
+│       │                                          │                     │
+│       │                                   ┌──────┴──────┐             │
+│       │                                   │  Meets RCP/  │             │
+│       │                                   │  RSP spec?   │             │
+│       │                                   └──────┬──────┘             │
+│       │                                ┌─────────┴─────────┐         │
+│       │                            YES │                    │ NO      │
+│       │                                ↓                    ↓         │
+│       │                          Continue          5. CORRECT          │
+│       │                        monitoring       ┌──────────┐         │
+│       │                                         │Investi-  │         │
+│       │                                         │gate root │         │
+│       │                                         │cause,    │         │
+│       │                                         │implement │         │
+│       │                                         │fix       │         │
+│       │                                         └────┬─────┘         │
+│       │                                              │               │
+│       └──────────────────────────────────────────────┘               │
+│                   Re-assess and re-prove                              │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
-Each stage maps to specific sections of Doc 9869:
+**Key questions at each stage:**
+
+| Stage | Who asks | The question |
+|---|---|---|
+| 1. DEVELOP | ANSP + State | "What communication/surveillance performance does the ATM operation need?" |
+| 2. APPLY | State | "Which RCP/RSP specification will we prescribe, and where is it published?" |
+| 3. PROVE | Operator | "Can we demonstrate our aircraft, crew, and providers meet the numbers?" |
+| 4. MONITOR | ANSP + Regional | "Does actual performance (ACP/ASP) match required performance (RCP/RSP)?" |
+| 5. CORRECT | All stakeholders | "When performance degrades, who investigates, fixes, and re-proves?" |
+
+**Doc 9869 source routing for each stage:**
+
 - **Develop:** Chapter 2, [[Developing RCP RSP Specifications]]
 - **Apply:** Chapter 3, [[Applying RCP RSP Specifications]]
 - **Prove:** Chapter 4.2-4.4, [[Operational Approval]]
 - **Monitor:** Chapter 4.5, Appendices D-E, [[Post-Implementation Monitoring]]
 - **Correct:** Appendices D-E, [[Corrective Action]]
+
+> [!tip] Screenshot this
+> This lifecycle diagram is designed to be screenshot and used in presentations or training materials. The box-and-arrow structure fits cleanly on a single slide.
 
 ---
 

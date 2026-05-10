@@ -26,8 +26,9 @@ Copy this into a working implementation file. Replace generic rows with the actu
 
 ## Boundary
 This template is a source-routed checklist, not evidence itself. A row is not compliant until the actual evidence is attached and accepted by the relevant authority or company owner.
-
 ## Related notes
+
+- [[PBCS Compliance Worked Example]] — see what a filled matrix looks like
 - [[PBCS Evidence Ladder]]
 - [[PBCS Responsibility Matrix]]
 - [[Appendix B RCP Table Verification]]
