@@ -17,6 +17,7 @@ tags: ["pbcs", "moc", "navigation"]
 - [[Home]] — landing page with learning path picker
 - [[Beginner Path]] — guided walkthrough (15 min)
 - [[Learning Tracks]] — role-specific learning plans
+- [[How to Use This Knowledge Base]] — navigating this site (3 min)
 - [[PBCS MOC]] — you are here
 
 ---
@@ -27,6 +28,17 @@ tags: ["pbcs", "moc", "navigation"]
 - [[Implementation Path]]
 - [[Compliance Path]]
 - [[Learning Tracks]]
+- [[How to Use This Knowledge Base]]
+
+---
+
+## 🧰 Tools & references
+
+- [[Acronyms and Terms]] — full glossary
+- [[Frequently Asked Questions]] — real PBCS questions answered
+- [[Choosing Your RCP-RSP Specification]] — which spec applies to you
+- [[Is Your Aircraft PBCS-Capable]] — capability checklist
+- [[Monitoring Shows Degradation - What Now]] — corrective action tree
 
 ---
 

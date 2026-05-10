@@ -87,3 +87,14 @@ Pick your path:
 ## 🤝 For institutions
 
 This KB is designed to be forked, adapted, and layered with your own regulatory, operational, and contractual evidence. See [[Learning Tracks]] for role-specific guidance.
+
+---
+
+## 🧰 Quick references
+
+- [[Acronyms and Terms]] — decode every acronym
+- [[Frequently Asked Questions]] — get answers fast
+- [[How to Use This Knowledge Base]] — navigate this site
+- [[Choosing Your RCP-RSP Specification]] — which spec applies
+- [[Is Your Aircraft PBCS-Capable]] — readiness check
+- [[Monitoring Shows Degradation - What Now]] — problem response
