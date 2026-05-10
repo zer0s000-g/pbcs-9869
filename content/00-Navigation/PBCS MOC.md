@@ -35,10 +35,20 @@ tags: ["pbcs", "moc", "navigation"]
 ## 🧰 Tools & references
 
 - [[Acronyms and Terms]] — full glossary
+- [[Quick Reference Card]] — printable one-pager
 - [[Frequently Asked Questions]] — real PBCS questions answered
 - [[Choosing Your RCP-RSP Specification]] — which spec applies to you
 - [[Is Your Aircraft PBCS-Capable]] — capability checklist
 - [[Monitoring Shows Degradation - What Now]] — corrective action tree
+
+---
+
+## 🏛️ Governance
+
+- [[Verification Standards]] — what each verification badge means
+- [[Changelog]] — version history and changes
+- [[Institution Adaptation Guide]] — fork and customize for your organization
+- [[ICAO Interoperability Map]] — how Doc 9869 connects to Annex 10, PANS-ATM, and more
 
 ---
 

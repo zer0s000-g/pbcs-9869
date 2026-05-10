@@ -93,8 +93,18 @@ This KB is designed to be forked, adapted, and layered with your own regulatory,
 ## 🧰 Quick references
 
 - [[Acronyms and Terms]] — decode every acronym
+- [[Quick Reference Card]] — printable one-pager for meetings
 - [[Frequently Asked Questions]] — get answers fast
 - [[How to Use This Knowledge Base]] — navigate this site
 - [[Choosing Your RCP-RSP Specification]] — which spec applies
 - [[Is Your Aircraft PBCS-Capable]] — readiness check
 - [[Monitoring Shows Degradation - What Now]] — problem response
+
+---
+
+## 🏛️ For institutions
+
+- [[Verification Standards]] — trust but verify
+- [[Institution Adaptation Guide]] — fork and customize
+- [[ICAO Interoperability Map]] — the broader ICAO ecosystem
+- [[Changelog]] — what changed and when
